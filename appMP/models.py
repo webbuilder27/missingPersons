@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+#This Model is the background criteria that will be enforced when inputing data into the missing persons table via admin page. 
 class MissingPerson(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)

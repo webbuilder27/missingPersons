@@ -22,3 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(appMP.urls)),
 ]
+#These URLS will either take you to our landing page or our admin page based upon what you enter after pasting the server. 
