@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import MissingPerson
 
-# Create your views here.
+#These are the codes that allow the routes on the urls.py file to run.  
 def MissingPersonsTable (request):
     MissingList = MissingPerson.objects.all()
     context = {
